@@ -52,10 +52,10 @@ If `reference_label` is `None`, use Calinski-Harabasz index as the criterion for
 
 ## References
 
-[1] Rodrugyezm, A., Laio, A., 2014. Clustering by fast search and find of density peaks. Science 344, 1492-6.
+[1] Rodriguez, A., Laio, A., 2014. Clustering by fast search and find of density peaks. Science 344, 1492-6. [Link](http://science.sciencemag.org/content/344/6191/1492.full)
 
-[2] Liao, W., Chen, H., Yang, Q., Lei, X., 2008. Analysis of fMRI data using improved self-organizing mapping and spatio-temporal metric hierarchical clustering. IEEE Trans. Med. Imaging 27, 1472-1483.
+[2] Liao, W., Chen, H., Yang, Q., Lei, X., 2008. Analysis of fMRI data using improved self-organizing mapping and spatio-temporal metric hierarchical clustering. IEEE Trans. Med. Imaging 27, 1472-1483. [Link](http://ieeexplore.ieee.org/abstract/document/4494444/)
 
-[3] M. Ankrest, M. Breunig, H. Kriegel, J. Sander, OPTICS: Ordering Points To Identify the Clustering Structure
+[3] M. Ankerst, M. Breunig, H. Kriegel, J. Sander, 1999. OPTICS: Ordering Points To Identify the Clustering Structure. ACM SIGMOD Record, 28, 49-60. [Link] (http://dl.acm.org/citation.cfm?id=304187)
 
-[4] Dy, J.G., Brodley, C.E., 2004. Feature Selection for Unsupervised Learning. J. Mach. Learn. Res. 5., 845-889.
+[4] Dy, J.G., Brodley, C.E., 2004. Feature Selection for Unsupervised Learning. J. Mach. Learn. Res. 5., 845-889. [Link] (http://www.ece.neu.edu/fac-ece/jdy/papers/dy04a.pdf)
