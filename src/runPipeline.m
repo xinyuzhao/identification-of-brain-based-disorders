@@ -25,7 +25,7 @@
 % Written by Xinyu Zhao
 % AU MRI research center, Auburn University
 % Janunary, 2017
-% https://github.com/xinyuzhao/identification-brain-based-disorders
+% https://github.com/xinyuzhao/identification-of-brain-based-disorders
 
 function [bestScore, bestLabel, bestFeature] = ...
     runPipeline(method_name, input_data, reference_label)
