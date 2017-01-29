@@ -1,4 +1,7 @@
-# Identification-brain-based-disorders
+<div align="center">
+  <img src="header.png"><br><br>
+</div>
+# Identification-of-brain-based-disorders
 
 A MATLAB package for identifying neuropsychiatric disorders using unsupervised clustering on resting-state functional magnetic resonance imaging (rs-fMRI) connectivity features. Details are described in the paper "Investigating the correspondence of clinical diagnostic grouping with underlying neurobiological and phenotypic clusters using unsupervised learning". 
 
