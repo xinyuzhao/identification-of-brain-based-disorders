@@ -7,4 +7,4 @@ input_data = input_f.connectivities;
 
 reference_label = load('sample_label.csv');
 
-[bsetSim, bestLabel, bestFeature] = runPipeline(1, input_data, reference_label);
+[bsetScore, bestLabel, bestFeature] = runPipeline(1, input_data, reference_label);

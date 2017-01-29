@@ -27,7 +27,7 @@
 % Janunary, 2017
 % https://github.com/xinyuzhao/identification-brain-based-disorders
 
-function [bsetSim, bestLabel, bestFeature] = ...
+function [bestScore, bestLabel, bestFeature] = ...
     runPipeline(method_name, input_data, reference_label)
 if nargin < 3
     reference_label = [];
@@ -65,7 +65,7 @@ for iter = 1 : MaxIteration
     %% Evaluation
     totalPop = [pop; kids];
     save('result/totalPop.mat', 'totalPop');
-    [bsetSim, bestLabel, bestFeature, sorted_sims] = Evaluation(input_data, reference_label, MaxNumClust, totalPop, iter, method_name);
+    [bestScore, bestLabel, bestFeature, sorted_sims] = Evaluation(input_data, reference_label, MaxNumClust, totalPop, iter, method_name);
     
     %% SelectPop
     pop = SelectPop(totalPop, sorted_sims, popSize, numFeature, goodSolution);
