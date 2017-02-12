@@ -18,7 +18,7 @@ A MATLAB package for identifying neuropsychiatric disorders using unsupervised c
 e.g., 'DFC_19_64': DFC computed between 19 and 64 ROIs
 ```
 
-## Clutering and feature selection
+## Clustering and feature selection
 
 The main function for this package is defined in `runPipeline.m`, which takes a method name index, an input matrix, and an optional reference label.
 
