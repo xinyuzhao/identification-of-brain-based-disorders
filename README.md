@@ -22,7 +22,7 @@ e.g., 'DFC_19_64': DFC computed between 19 and 64 ROIs
 
 The main function for this package is defined in `runPipeline.m`, which takes a method name index, an input matrix, and an optional reference label.
 
-### Input paramters
+### Input parameters
 
 #### `method_name`: int
 
