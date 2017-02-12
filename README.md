@@ -26,7 +26,7 @@ The main function for this package is defined in `runPipeline.m`, which takes a 
 
 #### `method_name`: int
 
-Indicate the seleted clustering method. 0: hierarchial clustering, 1: DPC, and 2: OPTICS
+Indicate the selected clustering method. 0: hierarchical clustering, 1: DPC, and 2: OPTICS
 
 #### `input_data`: matrix, shape = (n_samples, n_features)
 
